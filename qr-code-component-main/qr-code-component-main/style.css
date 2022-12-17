@@ -6,6 +6,106 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.contaner{
+    background: url(images/pexels-ovan-62693.jpg);
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+}
+.blue-background{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    box-shadow: 0px 0px 4px 1px lightslategray;
+}
+.qr-code{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    width: 275px;
+    height: 85%;
+    display: block;
+}
+.contain{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 90%;
+    height: 90%;
+}
+.first-paragraph{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.second-paragraph,.first-paragraph{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.second-paragraph{
+    margin-top:2px;
+    color: hsl(220, 15%, 55%);
+}
+@media(max-width:1200px){
+    .blue-background{
+        width: 100%;
+        height: 100%;
+    }
+    .qr-code{
+        width:  350px;
+        margin-bottom:5px ;
+    }
+    .first-paragraph{
+        height: 3rem;
+        display: flex;
+        margin:0;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-paragraph{
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    @media(min-width:500px){
+        .blue-background{
+            width: 95%;
+            height: 95%;
+        }
+        .qr-code{
+            width: 275px;
+        }
+        .first-paragraph{
+            margin: 0;
+        }
+        .second-paragraph{
+            margin: 0;
+            height: 20.9%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:15px;
+        }        
+    
+    }
+    
+}
 
 
 
@@ -22,11 +122,6 @@ body{
 
 
 
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;
+border-top: 1px solid black;}
 .attribution a { color: hsl(228, 45%, 44%); }
